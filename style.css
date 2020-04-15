@@ -1,0 +1,157 @@
+.blend {
+    background-image: url("images/background_1.jpeg");
+    background-size: cover;
+    background-position: center;
+    padding: 5em 0 10em;
+    background-color: #148;
+    background-blend-mode: soft-light;
+    color: #fff;
+}
+
+.btn-orange {
+    background-color: orangered;
+    border-color: orangered;
+}
+
+.btn-orange:hover, .default-btn-orange:hover {
+    background-color: #fff;
+    color: orangered;
+    border-color: #808088;
+}
+
+/************** TOP NAV ******************/
+.brand {
+    padding-left: 1em;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    padding-right: 1.2em;
+}
+
+.first-list {
+    padding: 1.6em 0.5em;
+    font-weight: bold;
+}
+
+.first-list li {
+    padding-left: 0.2em;
+    padding-right: 1em;
+}
+
+.last-list {
+    padding: 1em 0.5em;
+}
+
+.last-list .last-item {
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    padding-left: 0.5em;
+    padding-right: 1em;
+}
+
+.last-list .submit-item {
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    padding-left: 0.2em;
+    padding-right: 0.1em;
+}
+
+
+/************************ BODY *************************/
+.title-h1 {
+    padding-bottom: 1em;
+}
+
+.subtitle-p , .btn-spacing {
+    padding-bottom: 0.8em;
+    font-weight: normal;
+}
+
+.white-pane {
+    background-color: #fff;
+    position: relative;
+    top: -4em;
+    box-shadow: 0.1em 0.1em 0.5em #808080;
+}
+
+.span-space {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: #fff;
+    color: #26B4B3;
+}
+
+
+.span-space > h1 {
+    text-align: center;
+}
+
+.span-space > p {
+    text-overflow: ellipsis;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.card-space {
+    box-shadow: 0.1em 0.1em 0.5em #808080;
+    background-color: #fff;
+    padding-bottom: 3em;
+    padding-top: 2em;
+    padding-right: 2em;
+    padding-left: 2em;
+    margin-right: 2em;
+}
+
+.card-icon {
+    color: #26B4B3;
+    font-size: 10em;
+    text-align: center;
+}
+
+.text-p {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 2em 0;
+}
+
+.company-p {
+    color: #26B4B3;
+    font-style: italic;
+    text-align: center; 
+}
+
+
+
+.grey-pane {
+    background-color: #414042;
+    margin-top: 2em;
+    color: #fff;
+    padding-top: 5em;
+    padding-bottom: 3em;
+}
+
+.grey-space {
+    line-height: 0.5em;
+
+}
+
+.ul-grey-block, .ul-horizontal-block {
+    list-style-type: none;
+}
+
+.li-title {
+    padding-bottom: .3em;
+    font-weight: bold;
+}
+
+.ul-grey-block > li > p {
+    padding: 0.3em;
+}
+
+.small-copy {
+    text-align: center;
+    padding-top: 4em;
+}
+
+
